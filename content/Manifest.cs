@@ -6,5 +6,5 @@ using OrchardCore.Modules.Manifest;
     Description = "Module boilerplate is our starting point for building Orchard Core modules.",
     Name = "Boilerplate Module",
     Version = "0.0.1",
-    Website = "https://moov2.com",
+    Website = "https://moov2.com"
 )]
