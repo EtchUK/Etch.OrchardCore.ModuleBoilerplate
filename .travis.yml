@@ -13,5 +13,4 @@ install:
  - dotnet restore
 
 script:
- - npm install
  - dotnet build
