@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1-beta</Version>
+    <PackageId>Moov2.OrchardCore.ModuleBoilerplate</PackageId>
+    <Title>Boilerplate Module</Title>
+    <Authors>Moov2</Authors>
+    <Description>Module boilerplate is our starting point for building Orchard Core modules.</Description>
+    <PackageTags>orchardcore;moov2</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-beta3-*" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-beta3-*" />
+  </ItemGroup>
+
+</Project>

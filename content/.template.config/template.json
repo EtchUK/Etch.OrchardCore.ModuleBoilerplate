@@ -1,0 +1,39 @@
+{
+  "author": "Moov2 Ltd.",
+  "classifications": ["OrchardCore", "Web"],
+  "name": "Orchard Core Module Boilerplate",
+  "identity": "Moov2.OrchardCore.ModuleBoilerplate",
+  "shortName": "orchardcore-moduleboilerplate",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "Moov2.OrchardCore.ModuleBoilerplate",
+  "preferNameDirectory": "true",
+  "symbols": {
+    "author": {
+      "type": "parameter",
+      "defaultValue": "Unknown",
+      "replaces": "Moov2 Ltd."
+    },
+    "category": {
+      "type": "parameter",
+      "defaultValue": "Content",
+      "replaces": "Module Category"
+    },
+    "description": {
+      "type": "parameter",
+      "defaultValue": "Module for Orchard Core.",
+      "replaces": "Module boilerplate is our starting point for building Orchard Core modules."
+    },
+    "moduleName": {
+      "type": "parameter",
+      "defaultValue": "Orchard Core Module",
+      "replaces": "Boilerplate Module"
+    },
+    "website": {
+      "type": "parameter",
+      "defaultValue": "https://orchardcore.readthedocs.io/en/latest/",
+      "replaces": "https://moov2.com"
+    }
+  }
+}

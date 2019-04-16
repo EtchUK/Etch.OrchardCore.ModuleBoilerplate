@@ -14,7 +14,7 @@ To create a new module using the boilerplate it's quickest to use the `dotnet ne
 
 Once installed successfully, run the command below, which demonstrates all the possible parameters that are available.
 
-    dotnet new orchardcore-moduleboilerplate -n Example.OrchardCore.Module -o Example.OrchardCore.Module -au "Your Company Ltd." -d "Description for your module" -m "Your Module Name" -w "https://yourwebsite.co.uk"
+    dotnet new orchardcore-moduleboilerplate -n Example.OrchardCore.Module -o Example.OrchardCore.Module -au "Your Company Ltd." -d "Description for your module" -m "Your Module Name" -w "https://yourwebsite.co.uk" -c "Content"
 
 ### Parameters
 
@@ -23,6 +23,10 @@ Below are the different parameters that can be included in the `dotnet new` comm
 #### -au/--author
 
 Author of the module.
+
+#### -c/--category
+
+Category for the module.
 
 #### -d/--description
 
