@@ -10,7 +10,7 @@ Module boilerplate is our starting point for building [Orchard Core](https://orc
 
 To create a new module using the boilerplate it's quickest to use the `dotnet new` command. First you'll need to install the template, which is hosted on NuGet.
 
-    dotnet new -i Moov2.OrchardCore.ModuleBoilerplate
+    dotnet new -i Moov2.OrchardCore.ModuleBoilerplate --nuget-source https://api.nuget.org/v3/index.json
 
 Once installed successfully, run the command below, which demonstrates all the possible parameters that are available.
 
