@@ -4,11 +4,11 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.0.1-beta</Version>
-    <PackageId>Moov2.OrchardCore.ModuleBoilerplate</PackageId>
+    <PackageId>Etch.OrchardCore.ModuleBoilerplate</PackageId>
     <Title>Boilerplate Module</Title>
-    <Authors>Moov2</Authors>
+    <Authors>Etch UK</Authors>
     <Description>Module boilerplate is our starting point for building Orchard Core modules.</Description>
-    <PackageTags>orchardcore;moov2</PackageTags>
+    <PackageTags>orchardcore;etchuk</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
