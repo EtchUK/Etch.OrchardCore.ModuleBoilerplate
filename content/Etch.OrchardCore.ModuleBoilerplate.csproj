@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.1-beta</Version>
+    <Version>0.0.1-rc1</Version>
     <PackageId>Etch.OrchardCore.ModuleBoilerplate</PackageId>
     <Title>Boilerplate Module</Title>
     <Authors>Etch UK</Authors>
