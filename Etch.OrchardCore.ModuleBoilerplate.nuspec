@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Etch.OrchardCore.ModuleBoilerplate</id>
-    <version>0.4.2</version>
+    <version>1.0.0</version>
     <title>Etch UK Orchard Core Module Boilerplate</title>
     <description>
       Creates Orchard Core module using boilerplate.

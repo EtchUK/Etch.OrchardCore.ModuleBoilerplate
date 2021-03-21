@@ -8,7 +8,7 @@ Module boilerplate is our starting point for building Orchard Core modules.
 
 ## Orchard Core Reference
 
-This module is referencing the RC1 build of Orchard Core ([`1.0.0-rc2-13450`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.0.0-rc2-13450)).
+This module is referencing a stable build of Orchard Core ([`1.0.0`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.0.0)).
 
 ## Installing
 
@@ -22,8 +22,8 @@ Alternatively you can [download the source](https://github.com/etchuk/Etch.Orcha
 
 ## Packaging
 
-When the theme is compiled (using `dotnet build`) it's configured to generate a `.nupkg` file (this can be found in `\bin\Debug\` or `\bin\Release`).
+When the module is compiled (using `dotnet build`) it's configured to generate a `.nupkg` file (this can be found in `\bin\Debug\` or `\bin\Release`).
 
 ## Notes
 
-This theme was created using `v0.4.2` of [Etch.OrchardCore.ModuleBoilerplate](https://github.com/EtchUK/Etch.OrchardCore.ModuleBoilerplate) template.
+This module was created using `v1.0.0` of [Etch.OrchardCore.ModuleBoilerplate](https://github.com/EtchUK/Etch.OrchardCore.ModuleBoilerplate) template.
