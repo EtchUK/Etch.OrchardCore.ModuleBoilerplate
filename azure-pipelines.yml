@@ -27,12 +27,13 @@ stages:
             inputs:
               workingDirectory: $(System.DefaultWorkingDirectory)/content
               arguments: "-c $(BuildConfiguration)"
-
+              
           - task: NuGetCommand@2
-            displayName: "NuGet pack"
+            displayName: 'NuGet pack'
             inputs:
-              command: pack
-              packagesToPack: Etch.OrchardCore.ModuleBoilerplate.nuspec
+              command: custom
+              arguments: 'pack $(System.DefaultWorkingDirectory)\Etch.OrchardCore.ModuleBoilerplate.nuspec -NonInteractive -OutputDirectory $(Build.ArtifactStagingDirectory) -Properties Configuration=Release -Verbosity Detailed -NoDefaultExcludes'
+
 
           - task: PublishPipelineArtifact@1
             displayName: "Publish Pipeline Artifact"
