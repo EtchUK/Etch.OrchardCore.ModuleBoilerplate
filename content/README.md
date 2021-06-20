@@ -26,4 +26,4 @@ When the theme is compiled (using `dotnet build`) it's configured to generate a 
 
 ## Notes
 
-This theme was created using `v0.4.1` of [Etch.OrchardCore.ModuleBoilerplate](https://github.com/EtchUK/Etch.OrchardCore.ModuleBoilerplate) template.
+This theme was created using `v0.4.2` of [Etch.OrchardCore.ModuleBoilerplate](https://github.com/EtchUK/Etch.OrchardCore.ModuleBoilerplate) template.
