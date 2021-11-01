@@ -8,7 +8,7 @@ Module boilerplate is our starting point for building Orchard Core modules.
 
 ## Orchard Core Reference
 
-This module is referencing a stable build of Orchard Core ([`1.0.0`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.0.0)).
+This module is referencing a stable build of Orchard Core ([`1.1.0`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.1.0)).
 
 ## Installing
 
@@ -18,7 +18,7 @@ Alternatively you can [download the source](https://github.com/etchuk/Etch.Orcha
 
 ## Usage
 
-*Add instructions on how to use module features.*
+_Add instructions on how to use module features._
 
 ## Packaging
 
