@@ -8,7 +8,7 @@ Module boilerplate is our starting point for building Orchard Core modules.
 
 ## Orchard Core Reference
 
-This module is referencing a stable build of Orchard Core ([`1.1.0`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.1.0)).
+This module is referencing a stable build of Orchard Core ([`1.3.0`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.3.0)).
 
 ## Installing
 
@@ -26,4 +26,4 @@ When the module is compiled (using `dotnet build`) it's configured to generate a
 
 ## Notes
 
-This module was created using `v1.0.0` of [Etch.OrchardCore.ModuleBoilerplate](https://github.com/EtchUK/Etch.OrchardCore.ModuleBoilerplate) template.
+This module was created using `v1.2.0` of [Etch.OrchardCore.ModuleBoilerplate](https://github.com/EtchUK/Etch.OrchardCore.ModuleBoilerplate) template.
