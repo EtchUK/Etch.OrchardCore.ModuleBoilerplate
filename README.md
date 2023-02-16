@@ -4,13 +4,13 @@ Module boilerplate is our starting point for building [Orchard Core](https://orc
 
 ## Build Status
 
-[![Build Status](https://secure.travis-ci.org/etchuk/Etch.OrchardCore.ModuleBoilerplate.png?branch=master)](http://travis-ci.org/etchuk/Etch.OrchardCore.ModuleBoilerplate) [![NuGet](https://img.shields.io/nuget/v/Etch.OrchardCore.ModuleBoilerplate.svg)](https://www.nuget.org/packages/Etch.OrchardCore.ModuleBoilerplate)
+[![NuGet](https://img.shields.io/nuget/v/Etch.OrchardCore.ModuleBoilerplate.svg)](https://www.nuget.org/packages/Etch.OrchardCore.ModuleBoilerplate)
 
 ## Getting Started
 
 To create a new module using the boilerplate it's quickest to use the `dotnet new` command. First you'll need to install the template, which is hosted on NuGet.
 
-    dotnet new -i Etch.OrchardCore.ModuleBoilerplate --nuget-source https://api.nuget.org/v3/index.json
+    dotnet new install Etch.OrchardCore.ModuleBoilerplate --nuget-source https://api.nuget.org/v3/index.json
 
 Once installed successfully, run the command below, which demonstrates all the possible parameters that are available.
 
