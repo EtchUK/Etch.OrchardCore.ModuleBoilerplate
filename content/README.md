@@ -4,11 +4,11 @@ Module boilerplate is our starting point for building Orchard Core modules.
 
 ## Build Status
 
-[![Build Status](https://secure.travis-ci.org/etchuk/Etch.OrchardCore.ModuleBoilerplate.png?branch=master)](http://travis-ci.org/etchuk/Etch.OrchardCore.ModuleBoilerplate) [![NuGet](https://img.shields.io/nuget/v/Etch.OrchardCore.ModuleBoilerplate.svg)](https://www.nuget.org/packages/Etch.OrchardCore.ModuleBoilerplate)
+[![NuGet](https://img.shields.io/nuget/v/Etch.OrchardCore.ModuleBoilerplate.svg)](https://www.nuget.org/packages/Etch.OrchardCore.ModuleBoilerplate)
 
 ## Orchard Core Reference
 
-This module is referencing a stable build of Orchard Core ([`1.4.0`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.4.0)).
+This module is referencing a stable build of Orchard Core ([`1.5.0`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.5.0)).
 
 ## Installing
 
@@ -26,4 +26,4 @@ When the module is compiled (using `dotnet build`) it's configured to generate a
 
 ## Notes
 
-This module was created using `v1.3.0` of [Etch.OrchardCore.ModuleBoilerplate](https://github.com/EtchUK/Etch.OrchardCore.ModuleBoilerplate) template.
+This module was created using `#{VersionNumber}#` of [Etch.OrchardCore.ModuleBoilerplate](https://github.com/EtchUK/Etch.OrchardCore.ModuleBoilerplate) template.
