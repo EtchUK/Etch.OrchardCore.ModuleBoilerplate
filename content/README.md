@@ -8,7 +8,7 @@ Module boilerplate is our starting point for building Orchard Core modules.
 
 ## Orchard Core Reference
 
-This module is referencing a stable build of Orchard Core ([`1.7.2`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.7.2)).
+This module is referencing a stable build of Orchard Core ([`1.8.3`](https://www.nuget.org/packages/OrchardCore.Module.Targets/1.8.3)).
 
 ## Installing
 
